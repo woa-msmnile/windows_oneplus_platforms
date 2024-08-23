@@ -7,12 +7,6 @@
 [submodule "components/QC8350"]
 	path = components/QC8350
 	url = https://github.com/WOA-Project/windows_silicon_qcom_lahaina
-[submodule "components/QC8450"]
-	path = components/QC8450
-	url = https://github.com/WOA-Project/windows_silicon_qcom_waipio
-[submodule "components/QC8550"]
-	path = components/QC8550
-	url = https://github.com/WOA-Project/windows_silicon_qcom_kailua
-[submodule "components/QC8650"]
-	path = components/QC8650
-	url = https://github.com/WOA-Project/windows_silicon_qcom_lanai
+[submodule "components/Devices/OnePlus7"]
+	path = components/Devices/OnePlus7
+	url = https://github.com/woa-msmnile/windows_oem_oneplus_qc8150

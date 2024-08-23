@@ -1,10 +1,8 @@
 
-# Windows Driver pack for Surface Duo platforms
+# Windows Driver pack for OnePlus platforms
 
-![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/197420866-d3bb0534-c848-4cc2-a242-04dae48b0f6e.png)
-
-This repository contains driver binary files for Surface Duo 1 and Surface Duo 2.
-All driver binary files form a board support package to be used on Surface Duo 1 and Surface Duo 2 devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for OnePlus Devices.
+All driver binary files form a board support package to be used on OnePlus devices to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
 
@@ -21,7 +19,7 @@ Please see [LICENSE](LICENSE.md)
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/WOA-Project/SurfaceDuo-Drivers
+git clone -c core.autocrlf=false https://github.com/woa-msmnile/windows_oneplus_platforms
 ```
 
 ---
@@ -32,6 +30,6 @@ _Snapdragon is a registered trademark of Qualcomm Incorporated. Microsoft, the M
 
 _**Limited emergency calling**_
 
-_Running Windows on your Surface Duo is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
+_Running Windows on your OnePlus device is not a replacement for a proper phone operating system and does not have emergency calling capabilities._
 
 _**Hello from Seattle (US), France, Italy.**_

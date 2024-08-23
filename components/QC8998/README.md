@@ -1,1 +1,1 @@
-SK Placeholder
+Placeholder

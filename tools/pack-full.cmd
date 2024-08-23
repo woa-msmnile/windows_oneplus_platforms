@@ -1,17 +1,16 @@
 @echo off
 
-mkdir ..\..\Qualcomm-Drivers-Release
-del ..\..\Qualcomm-Drivers-Release\Qualcomm-Drivers-Full.7z
+mkdir ..\..\OnePlus-Drivers-Release
+del ..\..\OnePlus-Drivers-Release\OnePlus-Drivers-Full.7z
 
-mkdir Qualcomm-Drivers-Full
-mkdir Qualcomm-Drivers-Full\components
-mkdir Qualcomm-Drivers-Full\definitions
-xcopy /cheriky ..\components\ANYSOC Qualcomm-Drivers-Full\components\ANYSOC
-xcopy /cheriky ..\components\Devices Qualcomm-Drivers-Full\components\Devices
-xcopy /cheriky ..\components\QC8150 Qualcomm-Drivers-Full\components\QC8150
-xcopy /cheriky ..\components\QC8350 Qualcomm-Drivers-Full\components\QC8350
-xcopy /cheriky ..\definitions\Desktop Qualcomm-Drivers-Full\definitions\Desktop
+mkdir OnePlus-Drivers-Full
+mkdir OnePlus-Drivers-Full\apps
+mkdir OnePlus-Drivers-Full\components
+mkdir OnePlus-Drivers-Full\definitions
+xcopy /cheriky ..\apps OnePlus-Drivers-Full\apps
+xcopy /cheriky ..\components OnePlus-Drivers-Full\components
+xcopy /cheriky ..\definitions OnePlus-Drivers-Full\definitions
 
-"7z.exe" a -t7z -r ..\..\Qualcomm-Drivers-Release\Qualcomm-Drivers-Full.7z Qualcomm-Drivers-Full\*
+"7z.exe" a -t7z -r ..\..\OnePlus-Drivers-Release\OnePlus-Drivers-Full.7z OnePlus-Drivers-Full\*
 
-rmdir /Q /S Qualcomm-Drivers-Full
+rmdir /Q /S OnePlus-Drivers-Full
